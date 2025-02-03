@@ -1,17 +1,21 @@
 {
-  "name": "live-coding-139-be",
-  "version": "1.0.0",
-  "description": "live coding per la parte backend per la classe 139",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [
-    "node",
-    "live",
-    "coding"
-  ],
-  "author": "Simone Icardi",
-  "license": "ISC"
+    "name": "live-coding-139-be",
+    "version": "1.0.0",
+    "description": "live coding per la parte backend per la classe 139",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "type": "module",
+    "keywords": [
+        "node",
+        "live",
+        "coding"
+    ],
+    "author": "Simone Icardi",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.4.1"
+    }
 }
