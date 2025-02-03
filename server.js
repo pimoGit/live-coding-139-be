@@ -1,1 +1,4 @@
-console.log("Cia a tutti da Node!!!");
+import chalk from 'chalk';
+
+
+console.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
