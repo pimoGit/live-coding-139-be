@@ -8,7 +8,6 @@
         "start": "node server.js",
         "dev": "node --watch server.js"
     },
-    "type": "module",
     "keywords": [
         "node",
         "live",
@@ -17,6 +16,7 @@
     "author": "Simone Icardi",
     "license": "ISC",
     "dependencies": {
-        "chalk": "^5.4.1"
+        "chalk": "^5.4.1",
+        "express": "^4.21.2"
     }
 }
